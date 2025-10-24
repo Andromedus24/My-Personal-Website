@@ -4,7 +4,7 @@ import { MacHeader } from '@/components/MacHeader'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: "Sungjoo's Website",
+  title: "Ronak's Website",
   description: "A personal website with a Mac OS 9 aesthetic",
   icons: {
     icon: [
