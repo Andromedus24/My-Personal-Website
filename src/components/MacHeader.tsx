@@ -47,8 +47,8 @@ export function MacHeader() {
 
   // Apple menu items
   const appleMenuItems = [
-    { label: "Sungjoo's LinkedIn", url: "https://www.linkedin.com/in/sjnyoon/" },
-    { label: "Sungjoo's GitHub", url: "https://github.com/sungjooyoon" },
+    { label: "Ronak's LinkedIn", url: "https://www.linkedin.com/in/ronak-prabhu/" },
+    { label: "Ronak's GitHub", url: "https://github.com/andromedus24" },
   ];
   
   return (
@@ -108,7 +108,7 @@ export function MacHeader() {
           className="mac-menu-item font-bold text-sm px-2 cursor-pointer hover:bg-black hover:bg-opacity-10"
           onClick={reloadPage}
         >
-          Sungjoo&apos;s Website
+          Ronak&apos;s Website
         </div>
       </div>
       

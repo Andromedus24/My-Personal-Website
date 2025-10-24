@@ -145,7 +145,7 @@ export function AboutMe({ id, name, position, zIndex }: AboutMeProps) {
           ref={contentRef}
         >
           <div>
-            <h2 className="text-xl mb-4">Hello, I&apos;m Sungjoo.</h2>
+            <h2 className="text-xl mb-4">Hello, I&apos;m Ronak.</h2>
             
             <p className="mb-3" style={{ 
               fontFamily: 'Monaco, monospace', 
@@ -155,7 +155,7 @@ export function AboutMe({ id, name, position, zIndex }: AboutMeProps) {
               letterSpacing: '-0.2px'
             }}>
               <span style={{ display: 'inline-block', textIndent: '0px' }}>
-                <strong>Currently on voluntary leave from Harvard to build Biography as our founding CEO.</strong> Most recently, we raised our ~3x oversubscribed $5.5M seed round. Reach out to sungjoo@biography.industries with related inquiries.
+                <strong>Currently I work on Content Distribution at Rho, AI/MLP Research at CMU, and I'm a Senior Venture Scout at LvlUp Ventures. Previously, I was a growth intern at Cluely, I did growth and management at Ultra "(YC W24)", and I was an Harvard Winter Venture Tech Fellow, and a part of the first Harvard Ventures Winter Cohort with a less than 0.5% Acceptance Rate.</strong> To contact me, reach out to ronakvp21@gmail.com
               </span>
             </p>
             
@@ -176,19 +176,19 @@ export function AboutMe({ id, name, position, zIndex }: AboutMeProps) {
               fontSmooth: 'never',
               letterSpacing: '-0.2px'
             }}>
-              Other hats I&apos;ve worn in the past: American national (2022) and world (2023) debate champion. Brief stints in competitive math. Previously a speechwriter to Dem. leadership in the U.S. House. Youngest journalist to ever write the New York Times&apos; headline op-ed, and a fmr. intern columnist at the Los Angeles Times. Dabbling here and there in white-hat hacking. <strong>If you&apos;d like to learn more, please visit my LinkedIn and/or Github (accessible through the pear-icon drop-down in the top left corner).</strong>
+              Other hats I&apos;ve worn in the past: NASA intern (photometry pipelines), UPenn xLab autonomous race-car builder, Berkeley AI Safety Initiative fellow, UN IGF PNAI student rep. Lately: Headstarter SWE resident/AI fellow, Stanford DDL project lead (picked from 3k+), Grey Swan AI Arena global champ, Groq beta-tester/bounty hunter, and Perplexity Discover Curator with 20k+ reads. <strong>If you&apos;d like to learn more, please visit my LinkedIn and/or Github (accessible through the pear-icon drop-down in the top left corner).</strong>
             </p>
             
-            <p className="mb-3" style={{ 
-              fontFamily: 'Monaco, monospace', 
-              fontSize: '12.5px', 
+            <p className="mb-3" style={{
+              fontFamily: 'Monaco, monospace',
+              fontSize: '12.5px',
               WebkitFontSmoothing: 'none',
               fontSmooth: 'never',
               letterSpacing: '-0.2px'
             }}>
-              For non-Biography related inquiries, please contact me at sungjooyoon@college.harvard.edu (both sungjoo.yoon@latimes.com and sungjoo.yoonca@mail.house.gov are now out of commission).
+              For work related inquiries, please contact me at ronak.prabhu@rho.co (both ronak@cluely.com and ronak.prabhu@useultra.ai are now out of commission).
             </p>
-            
+
             <p className="mb-2" style={{ 
               fontFamily: 'Monaco, monospace', 
               fontSize: '12.5px', 
@@ -206,11 +206,11 @@ export function AboutMe({ id, name, position, zIndex }: AboutMeProps) {
               fontSmooth: 'never',
               letterSpacing: '-0.2px'
             }}>
-              <li className="mb-1">—virtue ethics as an ethical framework</li>
-              <li className="mb-1">—(Old) K*nye, A$AP Rocky, the Strokes, and Mac DeMarco</li>
-              <li className="mb-1">—neuroeconomics (my post-career goal is to pursue a Social & Decision Neuroscience PhD at Caltech, which was the lab I worked at last summer)</li>
-              <li className="mb-1">—photography (which was one of my two jobs before I dropped out)</li>
-              <li className="mb-1">—Anthony Bourdain</li>
+              <li className="mb-1">—Neuroeconomics in everyday interactions</li>
+              <li className="mb-1">—Stalking YC's Hacker News and AI Research Papers</li>
+              <li className="mb-1">—Evaluating and Building thinking systems)</li>
+              <li className="mb-1">—Reading state-capacity fiction (Red Rising & Will of the Many)</li>
+              <li className="mb-1">—Quantitative Financial Instruments</li>
             </ul>
           </div>
         </div>

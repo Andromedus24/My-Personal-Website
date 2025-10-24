@@ -73,69 +73,11 @@ export function Blog({ id, name, position, zIndex }: BlogProps) {
   const blogPosts = [
     {
       id: 1,
-      title: "Biography's short-form thesis",
-      subtitle: "Who we are, what we do...",
-      date: "April 27, 2025",
+      title: "A Thesis on Dreamers, Idealists, and Practicalists",
+      subtitle: "What drives who we are and what we do internally...",
+      date: "October 24, 2025",
       isPinned: true,
-      content: `We are an early-stage startup/development lab focused on building out a suite of consumer AI applications and agents.
-
-Our technical thesis is in our name: "bio" as in humans and people, "graphy" as in graphing algorithms which relate those people. Simply put, we are quite interested in data on human relationships. By treating every person in a given community as a node, every edge between nodes as proximity metrics, and seeding the resulting graph with existing data on real-life connections, we think we can create a 1:1 representation of human relationships in the cloud.
-
-<strong>In turn, we will become the first company to have such a comprehensive schema—of physical relations in digital form. For any given person, we know which social circles they exist in, and which people matter to them. We think that maintaining such a system of record would be a profound contribution to humanity, technological progress, and computing.</strong>
-
-<strong>In the short-term, think of how insanely efficient this makes consumer applications.</strong>
-
-Imagine a serendipity engine where we can subtly manufacture real-world collisions between mutuals. Imagine that we could dynamically generate weekly run clubs with only friends of friends. Like real-life social media, with streams of physical interactions as opposed to digital fragments of others' lives.
-
-Or, imagine that instead of dating apps filled with strangers, we could apply the double opt-in data escrow among second-degree connections, and deliver it to users through the form factor of an iMessage agent.
-
-Remember Pokemon Go and similar augmented reality games? It sucked that you couldn't battle other users, because of safety concerns. But imagine we knew who was demographically similar and mutually safe, and we could enable battle just among those friends of friends.
-
-Even imagine a world where advertising targets not by matrices of loose keywords and engagement patterns alone, but by targeting all ten members of a friend group, to manufacture a hyperlocal collective unconscious.
-
-The upshot is simple. This data is invaluable and no one has it yet. That is Biography's mission—to compile that data, and build incredible consumer products on top of it.
-
-<strong>In the long-term, this positions us to win the trillion-dollar AI assistant market as well.</strong>
-
-Current AI assistants/secretaries/personal agents focus on automating administrative tasks—responding to emails, answering texts, etc. But they have awfully low adoption because of the low-effort, high-leverage nature inherent to administration. Take emails, for example. They may be annoying but only take a minute or two to write; they are low-effort. But they are high-leverage, meaning that the material and professional consequences of messing them up are significant. Your boss or professor would feel pretty offended if your AI assistant messed up an email to them, and they realized that you sent said AI assistant to communicate with them.
-
-Bottom line—low-effort tasks are not a significant-enough inconvenience to trigger consumer demand. High-leverage tasks have consequences that further prevent user acquisition. They are tasks where even a 3-5% hallucination rate of the foundational model results in an unacceptable magnitude of error. But eventually, the foundational models will mitigate such errors to near-zero.
-
-<strong>When that happens, the winners of the AI assistant market will not have been those who have automated administrative (low-effort, high leverage) tasks.</strong>
-
-Those abilities will exist inherent to the models, and no one will have a defensible moat on those tasks.
-
-The winners will be those who have automated the widest suite of high-effort, low leverage tasks (i.e. everything else). Tasks that are genuinely difficult to complete by oneself, but have inconsequential failures and therefore high fault tolerance. Take the problem of romantic matchmaking. Setting up a date in real life comes with real inconveniences—the risk of rejection, stirring drama within social circles, having to ascertain information, and so on. They are also low leverage. There are not many material or professional consequences to not going on a date with someone, though it is a nice addition to one's life.
-
-We want to build all of these high-effort, low-leverage applications, because we know that when everyone can automate email perfectly using GPT o10, consumers will flock to the suite of assistants that can do everything else as well.
-
-<strong>What are we doing that no one else is?</strong>
-
-One observation is that a lot of these high-effort, low leverage tasks are social tasks. There are two conjectures which drive this.
-
-First, social tasks are broadly input-dense. Determining how to navigate a social environment requires data which is magnitudes more granular than factual or historic knowledge. It requires context that is hyperlocal, personal, and constantly evolving; information that is almost never formally recorded. And since human cognition is merely an offshoot of symbolic processing, we find input-dense environments as higher-effort than input-light environments.
-
-Social tasks are no exception to this pattern, and are therefore definitionally high-effort in most cases. Administrative tasks, on the contrary, are input-light and require a simple application of syntax + a few facts to reach a highly-probabilistic conclusion. Therefore, they remain low-effort.
-
-Second, social tasks usually have less material consequence attached to them. Failing to complete a work deliverable can get you fired. Failing to catch up with a friend is not so bad, because in most cases interpersonal faults do not turn you homeless. Therefore, social tasks are broadly low leverage.
-
-However, no one is able to effectively build automations for social tasks.
-
-This is because automation of social tasks requires social data. But because this data is so fragmented and hard to model, almost no one is attempting to systematize it at scale. Most consumer AI efforts today focus on administrative tasks—emails, scheduling, summarization—because those tasks rely on structured, publicly available information. They are low-hanging fruit.
-
-<strong>But as always, the real alpha lies in the work no one else wants to do. We are here to do that work.</strong>
-
-By building our dynamic database of human relationships, we will be the first with the social data to create those socially-relevant automations. Eventually, we want everyone to have a Biography-branded executive assistant. We want those assistants to be network-aware, connecting across social and professional graphs. Those assistants will be able to communicate with each other, and optimize every aspect of one's life—from low-effort, high leverage emails all the way down to high-effort, low leverage socialization. They will even be able to infer social information, as each assistant begins to mirror a biography of one human's life.
-
-<strong>Finally, in the long-term, we want to play in the realm of pure data as well.</strong>
-
-We think that maintaining the first system of record of this type positions us well for the era of AGI, and the impending explosion in scientific advancement. I would point out two additional use cases of such a system.
-
-First, foundational models will need our data to better predict and generate any results related to large-scale socialization. Second, multi-agent simulation models will need our data to most accurately predict how information disperses throughout society. We intend to be the canonical providers of those structured, high-fidelity social graphs.
-
-<strong>We are looking for a team of only the most brilliant people to join us. If you are reading this, that may apply to you.</strong>
-
-<strong>sjy, 04.27.25</strong>`
+      content: ``
     }
   ];
 
@@ -216,7 +158,7 @@ First, foundational models will need our data to better predict and generate any
     if (!currentPost) return;
     
     // Create share text with title and metadata
-    const shareText = `${currentPost.title}\n${currentPost.subtitle || ''}\nPublished: ${currentPost.date}\n\nShared from Sungjoo's Blog`;
+    const shareText = `${currentPost.title}\n${currentPost.subtitle || ''}\nPublished: ${currentPost.date}\n\nShared from Ronak's Blog`;
     
     // Copy to clipboard
     navigator.clipboard.writeText(shareText).then(() => {
@@ -315,7 +257,7 @@ First, foundational models will need our data to better predict and generate any
               )}
             </div>
             <div className="flex-1 text-center font-bold text-sm">
-              Sungjoo&apos;s Blog
+              Ronak&apos;s Blog
             </div>
             <div style={{ width: '60px' }}></div>
           </div>
@@ -325,8 +267,8 @@ First, foundational models will need our data to better predict and generate any
             <span className="text-xs mr-2" style={{ paddingLeft: '2px' }}>File:</span>
             <div className="flex-1 bg-white border border-gray-400 px-2 py-1 text-xs rounded">
               {selectedPost !== null 
-                ? `users/sungjooyoon/blog/${blogPosts.find(post => post.id === selectedPost)?.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}` 
-                : 'users/sungjooyoon/blog'}
+                ? `users/ronak_prabhu/blog/${blogPosts.find(post => post.id === selectedPost)?.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, '-')}` 
+                : 'users/ronak_prabhu/blog'}
             </div>
           </div>
           

@@ -19,8 +19,8 @@ export function Terminal({ id, name, position, zIndex }: TerminalProps) {
   const [password, setPassword] = useState('');
   const [currentInput, setCurrentInput] = useState('');
   const [terminalHistory, setTerminalHistory] = useState<string[]>([
-    'Welcome to Sungjoo\'s Terminal',
-    'Copyright © Sungjoo Yoon',
+    'Welcome to Ronak\'s Terminal',
+    'Copyright © Ronak Yoon',
     'Type "help" for available commands',
     ''
   ]);
@@ -114,7 +114,7 @@ export function Terminal({ id, name, position, zIndex }: TerminalProps) {
     } else if (cmd === 'clear') {
       setTerminalHistory(['Terminal cleared', '']);
     } else if (cmd === 'version') {
-      setTerminalHistory(prev => [...prev, 'Sungjoo\'s Terminal v1.0', '']);
+      setTerminalHistory(prev => [...prev, 'Ronak\'s Terminal v1.0', '']);
     } else if (cmd === '') {
       setTerminalHistory(prev => [...prev, '']);
     } else {
@@ -144,7 +144,7 @@ export function Terminal({ id, name, position, zIndex }: TerminalProps) {
       setBlogStep(1);
       setTerminalHistory(prev => [...prev, 'Creating a new blog post...', 'Enter the title:']);
     } else if (cmd === 'version') {
-      setTerminalHistory(prev => [...prev, 'Sungjoo\'s Terminal v1.0 (Admin Mode)', '']);
+      setTerminalHistory(prev => [...prev, 'Ronak\'s Terminal v1.0 (Admin Mode)', '']);
     } else if (cmd === '') {
       setTerminalHistory(prev => [...prev, '']);
     } else {
@@ -176,9 +176,9 @@ export function Terminal({ id, name, position, zIndex }: TerminalProps) {
       setCurrentInput('');
       
       // Simple login - in a real app, this would be more secure
-      if (username === 'sungjooyoon' && password === 'opSiSbeSt$48') {
+      if (username === 'ronak' && password === 'lightspeed') {
         setLoggedIn(true);
-        setTerminalHistory(prev => [...prev, '*'.repeat(currentInput.length), 'Login successful! Welcome sungjooyoon.', '']);
+        setTerminalHistory(prev => [...prev, '*'.repeat(currentInput.length), 'Login successful! Welcome ronak.', '']);
       } else {
         setTerminalHistory(prev => [...prev, '*'.repeat(currentInput.length), 'Login failed! Incorrect username or password.', '']);
       }
