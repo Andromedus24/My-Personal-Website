@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Macintosh HD",
-  title: "Your Name - Retro Mac Portfolio",
+  title: "Ronak - Retro Mac Portfolio",
   description: "A personal website showcasing my work in classic Mac OS style",
   url: "https://your-domain.com",
   ogImage: "https://your-domain.com/og.jpg",
